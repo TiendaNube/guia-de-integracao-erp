@@ -1,144 +1,64 @@
-# Welcome to StackEdit!
+# Introdução
 
-Hi! I'm your first Markdown file in **StackEdit**. If you want to learn about StackEdit, you can read me. If you want to play with Markdown, you can edit me. Once you have finished with me, you can create new files by opening the **file explorer** on the left corner of the navigation bar.
+Com a Nuvemshop você pode criar poderosas soluções de ecommerce para o nosso ecossistema de lojas virtuais, como o desenvolvimento de aplicativos, integrações com outros softwares e customização de layout. Nesse guia você vai encontrar todas as informações necessárias de como começar, desenvolver e publicar essas soluções. 
 
-    enter code here
+As oportunidades para desenvolver soluções para o e-commerce são infinitas. O nosso ecossistema de lojistas enfrenta desafios no lançamento, manutenção e crescimento dos seus negócios. É nesse momento que os parceiros podem oferecer seus conhecimentos e ferramentas.
 
-# Files
+Cada desafio é uma oportunidade para você, como parceiro, prover soluções que irão economizar o tempo dos nossos lojistas e aumentar o faturamento deles. 
 
-StackEdit stores your files in your browser, which means all your files are automatically saved locally and are accessible **offline!**
+---
 
-## Create files and folders
+## O que você pode desenvolver
 
-The file explorer is accessible using the button in left corner of the navigation bar. You can create a new file by clicking the **New file** button in the file explorer. You can also create folders by clicking the **New folder** button.
+Você pode entregar valor para os lojistas construindo soluções para:
 
-## Switch to another file
+- **Layout:** Nós chamamos de *Storefront* a interface que os consumidores interagem com as lojas. Você pode ajudar nossos lojistas modificando, criando e desenvolvendo aplicações para personalizar e criar novas ferramentas nos layouts das *Storefronts.*
+- **Canais de Vendas:** Qualquer integração com plataformas de venda como marketplaces(ex: MELI, Amazon, B2W) ou mídias sociais(ex: Facebook, Instagram), onde os lojistas possam vender seus produtos e ampliar os canais de vendas.
+- **Produtos e Categorias:** Esses são os ítens físicos, produtos digitais e serviços que um lojista vende em sua loja. Configurador de produtos, formatos de exibição diferenciado, criação de kits, gestão de categorias e variações, são oportunidades de desenvolvimento que podem ser exploradas.
+- **Gestão da Loja:** Engloba todos os aspectos de como o lojista gerencia as funções de sua loja, incluindo o estoque, funcionários, conteúdo, nota fiscal, etc. Melhorar o fluxo de trabalho e automatizar processos de gestão ajuda os lojistas a economizar tempo e esforço.
+- **Meios de Envio(*Shipping*):** Engloba todos os passos desde do momento de recebimento de um pedido até o momento que um cliente recebe os produtos na sua casa. A complexidade na gestão do envio, devolução, troca, etc. oferece uma série de oportunidades para você automatizar, simplificar e até diminuir o custo do processo de *shipping* de nossos lojistas
+- **Gestão de Clientes:** Uma gestão eficiente de clientes significa organizar os pedidos, feedback e dúvidas. Construindo soluções para otimizar essas tarefas, você irá ajudar nossos lojistas a oferecer uma experiência melhor aos consumidores.
+- **Analytics:** São os dados usados para acompanhar o desempenho do negócio(ex: comportamento do consumidor, número de vendas, taxa de conversão). Utilizar essas e outras informações pode ajudar os lojistas a tomarem melhores decisões na gestão da empresa.
+- **Descontos e Marketing:** Essa é uma  área muito importante pois permite aumentar o tráfego da loja e ajudar a converter visitantes em clientes. Melhorar o SEO para ajudar os clientes a encontrar a loja nos mecanismos de busca, compartilhar os produtos em redes sociais, ou automatizar tarefas de marketing, são ítens que fazem parte da área de Descontos e Marketing.
 
-All your files and folders are presented as a tree in the file explorer. You can switch from one to another by clicking a file in the tree.
+---
 
-## Rename a file
+## Desenvolvendo um App
 
-You can rename the current file by clicking the file name in the navigation bar or by clicking the **Rename** button in the file explorer.
+Crie um app que pode ser usado por mais de 27.000 lojas da Nuvemshop. Veja nosso guia de [Como Começar](/como-comecar) para criar suas credenciais e fazer as primeiras chamadas na nossa API.
 
-## Delete a file
+### Tipos de Aplicativos
 
-You can delete the current file by clicking the **Remove** button in the file explorer. The file will be moved into the **Trash** folder and automatically deleted after 7 days of inactivity.
+A nossa API permite que os desenvolvedores integrem-se a plataforma de diversas formas. Dependendo da finalidade do seu app, você primeiro deve escolher se ele será **público** ou **privado.** Os apps **públicos** são aqueles que serão distribuídos através da nossa App Store para todos os lojistas. Os apps **privados** são desenvolvidos sob demanda para uma única loja ou um pequeno grupo de lojistas. Algumas diferenças importantes sobre esses dois tipos de Apps:
 
-## Export a file
+**App Público:**
 
-You can export the current file by clicking **Export to disk** in the menu. You can choose to export the file as plain Markdown, as HTML using a Handlebars template or as a PDF.
+- Pode ser instalado em múltiplas lojas
+- Ficará listado na nossa App Store(necessária aprovação)
+- Pode usar funcionalidades de Enhanced Admin
+- Sujeito à aceitação de acordo comercial
 
+**App Privado:**
 
-# Synchronization
+- Criado para uma única loja, ou um pequeno número de lojas.
+- Não pode ser listado na App Store
 
-Synchronization is one of the biggest features of StackEdit. It enables you to synchronize any file in your workspace with other files stored in your **Google Drive**, your **Dropbox** and your **GitHub** accounts. This allows you to keep writing on other devices, collaborate with people you share the file with, integrate easily into your workflow... The synchronization mechanism takes place every minute in the background, downloading, merging, and uploading file modifications.
+---
 
-There are two types of synchronization and they can complement each other:
+## Sobre nossa API
 
-- The workspace synchronization will sync all your files, folders and settings automatically. This will allow you to fetch your workspace on any other device.
-	> To start syncing your workspace, just sign in with Google in the menu.
+Estamos constantemente evoluindo a API para facilitar o desenvolvimento de aplicativos e integrações. Você pode consultar a documentação completa nesse link: [https://github.com/TiendaNube/api-docs](https://github.com/TiendaNube/api-docs)
 
-- The file synchronization will keep one file of the workspace synced with one or multiple files in **Google Drive**, **Dropbox** or **GitHub**.
-	> Before starting to sync files, you must link an account in the **Synchronize** sub-menu.
+### API Resources
 
-## Open a file
-
-You can open a file from **Google Drive**, **Dropbox** or **GitHub** by opening the **Synchronize** sub-menu and clicking **Open from**. Once opened in the workspace, any modification in the file will be automatically synced.
-
-## Save a file
-
-You can save any file of the workspace to **Google Drive**, **Dropbox** or **GitHub** by opening the **Synchronize** sub-menu and clicking **Save on**. Even if a file in the workspace is already synced, you can save it to another location. StackEdit can sync one file with multiple locations and accounts.
-
-## Synchronize a file
-
-Once your file is linked to a synchronized location, StackEdit will periodically synchronize it by downloading/uploading any modification. A merge will be performed if necessary and conflicts will be resolved.
-
-If you just have modified your file and you want to force syncing, click the **Synchronize now** button in the navigation bar.
-
-> **Note:** The **Synchronize now** button is disabled if you have no file to synchronize.
-
-## Manage file synchronization
-
-Since one file can be synced with multiple locations, you can list and manage synchronized locations by clicking **File synchronization** in the **Synchronize** sub-menu. This allows you to list and remove synchronized locations that are linked to your file.
-
-
-# Publication
-
-Publishing in StackEdit makes it simple for you to publish online your files. Once you're happy with a file, you can publish it to different hosting platforms like **Blogger**, **Dropbox**, **Gist**, **GitHub**, **Google Drive**, **WordPress** and **Zendesk**. With [Handlebars templates](http://handlebarsjs.com/), you have full control over what you export.
-
-> Before starting to publish, you must link an account in the **Publish** sub-menu.
-
-## Publish a File
-
-You can publish your file by opening the **Publish** sub-menu and by clicking **Publish to**. For some locations, you can choose between the following formats:
-
-- Markdown: publish the Markdown text on a website that can interpret it (**GitHub** for instance),
-- HTML: publish the file converted to HTML via a Handlebars template (on a blog for example).
-
-## Update a publication
-
-After publishing, StackEdit keeps your file linked to that publication which makes it easy for you to re-publish it. Once you have modified your file and you want to update your publication, click on the **Publish now** button in the navigation bar.
-
-> **Note:** The **Publish now** button is disabled if your file has not been published yet.
-
-## Manage file publication
-
-Since one file can be published to multiple locations, you can list and manage publish locations by clicking **File publication** in the **Publish** sub-menu. This allows you to list and remove publication locations that are linked to your file.
-
-
-# Markdown extensions
-
-StackEdit extends the standard Markdown syntax by adding extra **Markdown extensions**, providing you with some nice features.
-
-> **ProTip:** You can disable any **Markdown extension** in the **File properties** dialog.
-
-
-## SmartyPants
-
-SmartyPants converts ASCII punctuation characters into "smart" typographic punctuation HTML entities. For example:
-
-|                |ASCII                          |HTML                         |
-|----------------|-------------------------------|-----------------------------|
-|Single backticks|`'Isn't this fun?'`            |'Isn't this fun?'            |
-|Quotes          |`"Isn't this fun?"`            |"Isn't this fun?"            |
-|Dashes          |`-- is en-dash, --- is em-dash`|-- is en-dash, --- is em-dash|
-
-
-## KaTeX
-
-You can render LaTeX mathematical expressions using [KaTeX](https://khan.github.io/KaTeX/):
-
-The *Gamma function* satisfying $\Gamma(n) = (n-1)!\quad\forall n\in\mathbb N$ is via the Euler integral
-
-$$
-\Gamma(z) = \int_0^\infty t^{z-1}e^{-t}dt\,.
-$$
-
-> You can find more information about **LaTeX** mathematical expressions [here](http://meta.math.stackexchange.com/questions/5020/mathjax-basic-tutorial-and-quick-reference).
-
-
-## UML diagrams
-
-You can render UML diagrams using [Mermaid](https://mermaidjs.github.io/). For example, this will produce a sequence diagram:
-
-```mermaid
-sequenceDiagram
-Alice ->> Bob: Hello Bob, how are you?
-Bob-->>John: How about you John?
-Bob--x Alice: I am good thanks!
-Bob-x John: I am good thanks!
-Note right of John: Bob thinks a long<br/>long time, so long<br/>that the text does<br/>not fit on a row.
-
-Bob-->Alice: Checking with John...
-Alice->John: Yes... John, how are you?
-```
-
-And this will produce a flow chart:
-
-```mermaid
-graph LR
-A[Square Rect] -- Link text --> B((Circle))
-A --> C(Round Rect)
-B --> D{Rhombus}
-C --> D
-```
+- [Store](https://github.com/tiendanube/api-docs/blob/master/resources/store.md)
+- [Product](https://github.com/tiendanube/api-docs/blob/master/resources/product.md)
+- [Product Variant](https://github.com/tiendanube/api-docs/blob/master/resources/product_variant.md)
+- [Product Image](https://github.com/tiendanube/api-docs/blob/master/resources/product_image.md)
+- [Category](https://github.com/tiendanube/api-docs/blob/master/resources/category.md)
+- [Order](https://github.com/tiendanube/api-docs/blob/master/resources/order.md)
+- [Customer](https://github.com/tiendanube/api-docs/blob/master/resources/customer.md)
+- [Script](https://github.com/tiendanube/api-docs/blob/master/resources/script.md)
+- [Webhook](https://github.com/tiendanube/api-docs/blob/master/resources/webhook.md)
+- [Coupons](https://github.com/tiendanube/api-docs/blob/master/resources/coupon.md)
+- [Metafields](https://github.com/tiendanube/api-docs/blob/master/resources/metafields.md)
